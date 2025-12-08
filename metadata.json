@@ -1,0 +1,5 @@
+{
+  "name": "SIMULADO 04 - ALE RO",
+  "description": "Um aplicativo de formulário para os usuários preencherem um gabarito de 80 questões, receberem uma pontuação e verem sua classificação em um ranking. O aplicativo impede envios duplicados e fornece um script de incorporação.",
+  "requestFramePermissions": []
+}
