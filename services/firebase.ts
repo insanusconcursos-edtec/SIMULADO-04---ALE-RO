@@ -3,8 +3,7 @@
 declare var firebase: any;
 
 // Your web app's Firebase configuration
-// ATUALIZADO PARA O PROJETO SIMULADO 04
-// Using the new keys provided to ensure isolation from Simulado 03
+// ATUALIZADO PARA O PROJETO SIMULADO 04 - ALE RO
 const firebaseConfig = {
   apiKey: "AIzaSyBvNLO53e1RjE8a53xKIVo8xCEKnPLVc3c",
   authDomain: "simulado-04-ale-ro.firebaseapp.com",
@@ -21,3 +20,6 @@ const app = firebase.apps.length ? firebase.app() : firebase.initializeApp(fireb
 
 // Initialize Cloud Firestore and get a reference to the service using the compat API
 export const db = app.firestore();
+
+// Initialize Analytics
+export const analytics = firebase.analytics();
